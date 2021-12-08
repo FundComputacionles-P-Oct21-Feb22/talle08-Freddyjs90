@@ -1,3 +1,6 @@
+
+// completar el código
+
 //  Dados los siguientes arreglos
 //  Encontrar el promedio de las notas del arreglo notasMatematica
 //  y encontrar el promedio del arreglo notasCiencias
@@ -19,4 +22,13 @@
 10. notasCiencias[0] <-- 10
 11. notasCiencias[1] <-- 9
 12. notasCiencias[2] <-- 10
-// completar el código
+13. Para (indice<--0, indice<3, 1) entonces
+14.   suma <-- suma + notasMatematica[indice]
+15. Fin Para
+16. promedio[0] <-- suma/3  // 33 / 3 = 11
+17. suma <-- 0 
+17. Para (indice<--0, indice<3, 1) entonces
+18.   suma <-- suma + notasCiencias[indice]
+19. Fin Para
+20. promedio[1] <-- suma/3
+21. Escribir "Los promedios son:\n" + promedio[0] + "\n" + promedio[1]
